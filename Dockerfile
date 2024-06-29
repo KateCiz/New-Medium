@@ -26,4 +26,4 @@ RUN pip install psycopg2
 # closing command to gunicorn app:app
 CMD gunicorn app:app
 
-COPY --chown=node:node ./package*.json ./
+# COPY --chown=node:node ./package*.json ./
