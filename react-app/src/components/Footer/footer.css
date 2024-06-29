@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content:  center;
+    align-self: center;
+    width: 10%;
+    bottom: 0;
+    left: 40%;
+}
+
+.footer-container a {
+
+    padding-left: .5em;
+    padding-right: .5em;
+    text-decoration: none;
+    color: rgb(113, 114, 117);
+}
+
+.footer-links:hover{
+    opacity: .8;
+
+}
