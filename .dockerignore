@@ -8,3 +8,5 @@ instance/*
 instance
 dev.db
 .gitignore
+!prisma/**
+!src/**
